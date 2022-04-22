@@ -10,10 +10,10 @@
 </head>
 <body>
     <section id="app">
-    <?php 
-        include_once __DIR__ ."/partials/header.php";
-        include_once __DIR__ ."/partials/main.php"; 
-    ?>
+        <?php 
+            include_once __DIR__ ."/partials/header.php";
+            include_once __DIR__ ."/partials/main.php"; 
+        ?> 
     </section> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"></script>
     <script src="js/script.js"></script>
