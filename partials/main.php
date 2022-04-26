@@ -3,24 +3,29 @@
 ?>
 <main>
     <section>  
-        
-    <div class="card mb-3" v-for="element in discs" style="max-width: 540px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                    <img :src="element.poster" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">{{element.title}}</h5>
-                            <p class="card-text">{{element.author}}</p>
-                            <p class="card-text">{{element.year}}</p>
-                            <p class="card-text">{{element.genre}}</p> 
+       <div class="container-fluid my-container">
+           <div class="row d-flex justify-content-center"> 
+                 <div class="card me-3 my-3" v-for="element in discs" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                        <img :src="element.poster" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">{{element.title}}</h5>
+                                <p class="card-text">{{element.author}}</p>
+                                <p class="card-text">{{element.year}}</p>
+                                <p class="card-text">{{element.genre}}</p> 
 
-                            
+                                
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+
+           </div>
+       </div> 
+       
     
     </section>
 </main> 

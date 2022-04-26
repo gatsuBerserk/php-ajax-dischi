@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.my-bg{
+    background-color:rgb(46, 58, 70) ;
+  } 
+  figure{
+      margin: 0;
+  } 
+  img{
+    height: 50px;
+  } 
+.my-container{
+    background-color: rgb(30, 45, 59) ; 
+    height: 100vh;
+
+} 

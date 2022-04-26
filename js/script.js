@@ -2,7 +2,7 @@ const app = new Vue (
 	{
 		el: "#app",
 		data: { 
-            discs:[], 
+            discs:[],
 		}, 
         created(){
             axios.get("http://localhost/php-ajax-dischi/server/controller.php")
@@ -11,7 +11,6 @@ const app = new Vue (
                 }).catch((error)=>{
                     console.warn(error)
                 })
-
         }
 	}
 )
